@@ -28,7 +28,7 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = 'mysql';
+$cfg['Servers'][$i]['host'] = 'doimicuuti';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 
@@ -145,10 +145,11 @@ $cfg['SaveDir'] = '';
  * Available options
  * ('ask' | 'always' | 'never')
  * default = 'ask'
- */false
+ */
 //$cfg['SendErrorReports'] = 'always';
 
 /**
  * You can find more configuration options in the documentation
  * in the doc/ folder or at <https://docs.phpmyadmin.net/>.
  */
+?>
